@@ -1,8 +1,20 @@
 import React from "react";
 import "../css/app.css";
+import { Box, Container, Stack, Typography, Button } from "@mui/material";
 
 function App() {
-  return <div>Home</div>;
+  return (
+    <Container maxWidth="sm">
+      <Stack flexDirection={"column"}>
+        <Box sx={{ my: 4}}>
+           <Typography variant="h4" component={"h4"}>
+            Create React App on TypeScript width REDUX
+           </Typography>
+        </Box>
+        <Button variant="contained">Contained</Button>
+      </Stack>
+    </Container>
+  );
 }
 
 export default App;
