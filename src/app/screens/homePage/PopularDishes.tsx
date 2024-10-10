@@ -76,10 +76,10 @@ export default function PopularDishes() {
                                         }}
                                         >
                                             <Typography
-                                                startDecorator={<DescriptionOutlined />}
-                                                textColor="neutral.300"
-                                                >
-                                                This is delicious meal
+                                            startDecorator={<DescriptionOutlined />}
+                                            textColor="neutral.300"
+                                            >
+                                            This is delicious meal
                                             </Typography>
                                     </CardOverflow>
                                 </Card>
